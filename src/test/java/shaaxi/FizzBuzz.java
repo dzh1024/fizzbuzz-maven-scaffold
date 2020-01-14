@@ -1,3 +1,4 @@
+package shaaxi;
 
 public class FizzBuzz {
 	public static String getStr(int i) {
@@ -7,7 +8,8 @@ public class FizzBuzz {
 			return "Fizz";
 		} else if (i % 5 == 0) {
 			return "Buzz";
-		} else
-			return "FizzBuzz";
+		} else {
+			return String.valueOf(i);
+		}
 	}
 }
