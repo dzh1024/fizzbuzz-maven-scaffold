@@ -1,4 +1,3 @@
-package shaaxi;
 
 public class FizzBuzz {
 	public static String getStr(int i) {
